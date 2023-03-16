@@ -3,11 +3,7 @@
 #include <math.h>
 
 int main () {
-    double pieces;
-    double size;
-    double total;
-    double amount;
-    double exact;
+    double max, pieces, size, total, amount, exact;
     printf("How many pieces?\n>");
     scanf("%lf", &pieces);
     printf("What size?\n>");
