@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main () {
+    double pieces;
+    double size;
+    double total;
+    double amount;
+    double exact;
+    printf("How many pieces?\n>");
+    scanf("%lf", &pieces);
+    printf("What size?\n>");
+    scanf("%lf", &size);
+    total = pieces * size;
+    amount = total/9;
+    exact = ceil(amount);
+    printf("Total steel needed is %lf\n", total);
+    printf("Total amount of rebar neeed is %lf\n", amount);
+    printf("Rounded to %lf\n", exact);
+}
