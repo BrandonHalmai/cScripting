@@ -3,12 +3,7 @@
 #include <math.h>
 
 int main () {
-    double max;
-    double pieces;
-    double size;
-    double total;
-    double amount;
-    double exact;
+    double max, pieces, size, total, amount, exact;
     printf("What is the total lenght of the rebar? Default is 9m.\n>");
     scanf("%lf", &max);
     printf("How many pieces?\n>");
