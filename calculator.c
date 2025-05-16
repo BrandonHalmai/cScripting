@@ -1,7 +1,5 @@
 #include <stdio.h>
 char operation;
-char confirmation;
-
 
 int addition() {
 	printf("\nTesting out the addition function\n");
